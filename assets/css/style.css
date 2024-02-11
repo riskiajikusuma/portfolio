@@ -242,8 +242,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background: url("../img/hero-bg.png") right;
   background-size: cover;
+  /*background-repeat: no-repeat;*/
 }
 
 #hero:before {
@@ -259,7 +260,7 @@ h6 {
 
 #hero .hero-container {
   position: relative;
-  right: 10%;
+  right: 4%;
   z-index: 2;
   min-width: 300px;
 }
@@ -342,12 +343,20 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-paragraf {
+  align-items: center;
+}
+
+.about-paragraf p {
+  margin-bottom: 20px;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -381,8 +390,23 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Careers
 --------------------------------------------------------------*/
+.careers .card-body {
+  background-color: #2a2a2a;
+}
+
+.careers .career-logo {
+  object-fit: contain;
+  padding: 0.4rem;
+  background-color: #e7e7e7;
+}
+
+.careers .career-text {
+  color: #9b9b9b;
+  font-family: "Poppins", sans-serif;
+}
+
 .facts {
   padding-bottom: 30px;
 }
@@ -410,7 +434,7 @@ section {
 }
 
 .facts .count-box p {
-  padding: 15px 0 0 0;
+  padding: 0 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -921,90 +945,33 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .send-email {
   width: 100%;
   padding: 30px;
   background: #000000;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .php-email-form .form-group {
+.contact .send-email .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form .form-group {
-  margin-bottom: 15px;
-}
-
-.contact .php-email-form label {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .send-email input,
+.contact .send-email textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .send-email input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .send-email textarea {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .send-email button[type=submit] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -1013,18 +980,8 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .send-email button[type=submit]:hover {
   background: #37b3ed;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1107,3 +1064,11 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/* Career Section */
+.career-logo {
+  width: 100px;
+  height: 100px;
+}
+
+
