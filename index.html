@@ -1,676 +1,1198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Riski Aji Kusuma</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Riski Aji Kusuma</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon/android-chrome-192x192.png" rel="icon" />
+    <link
+      href="assets/img/favicon/apple-touch-icon.png"
+      rel="apple-touch-icon"
+    />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon/android-chrome-192x192.png" rel="icon">
-  <link href="assets/img/favicon/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Send Email -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="assets/js/send-email.js"></script>
+  </head>
 
-  <!-- Send Email -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="assets/js/send-email.js"></script>
-</head>
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Riski Aji Kusuma</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://wa.me/62881081861349" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-          <a href="https://www.linkedin.com/in/riskiajikusuma" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=riskiajikusuma.dev@gmail.com" class="google-plus"><i class="bx bxl-gmail"></i></a>
-          <a href="https://www.instagram.com/riskiajikusuma" class="instagram"><i class="bx bxl-instagram"></i></a>
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="assets/img/profile-img.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Riski Aji Kusuma</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://wa.me/62881081861349" class="whatsapp"
+              ><i class="bx bxl-whatsapp"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/riskiajikusuma"
+              class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=riskiajikusuma.dev@gmail.com"
+              class="google-plus"
+              ><i class="bx bxl-gmail"></i
+            ></a>
+            <a href="https://www.instagram.com/riskiajikusuma" class="instagram"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
         </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bx bx-home"></i> <span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>About</span></a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Projects</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bx bx-envelope"></i> <span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
       </div>
+    </header>
+    <!-- End Header -->
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Projects</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Riski Aji Kusuma</h1>
-      <p>I'm a <span class="typed" data-typed-items="Backend Developer, API Developer, Web Developer"></span></p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title about-paragraf">
-          <h2>About</h2>
-          <p>Hi there. Thanks for visiting my personal website.</p>
-          <p>I'm Ajik. With 2 years experience in software developer, I've honed my expertise in API development, backend development, and web development.</p>
-          <p>I am particularly passionate about backend development, where my strong focus lies in the creation of robust APIs.
-            As an API developer, I specialize in architecting and manage APIs that facilitate seamless communication between different software systems.
-            My proficiency in backend development allows me to design and optimize the server-side logic.
-            Additionally, I have a solid foundation in web development, enabling me to create web applications that are user-friendly experiences and integrate frontend components with backend systems.
-          </p>
-
-          <p>Throughout my career journey, I have had the privilege of learning more about APIs, being able to develop powerful backend solutions, and contributing to developing seamless functionality of various API services.</p>
-          <p>As a developer, I prioritize communication to ensure alignment with stakeholders, simplify the development process, and ultimately deliver solutions that meet and exceed expectations.
-            I firmly believe that encouraging open discussion and active listening to others are essential ingredients for achieving success in any endeavor.</p>
-
-          <p>Take a look around to explore some of my projects and see how I can help bring your vision to life.</p>
-        </div>
-
-        <a class="btn btn-outline-secondary download-btn p-3" href="https://docs.google.com/document/d/1GwAmiqX_3bpEwDvUJykxjPxKPmYUAp8UK4AoWuzVhIc/edit?usp=sharing" role="button">
-          Download Resume
-        </a>
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Riski Aji Kusuma</h1>
+        <p>
+          I'm a
+          <span
+            class="typed"
+            data-typed-items="Backend Developer, API Developer, Web Developer"
+          ></span>
+        </p>
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End Hero -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title about-paragraf">
+            <h2>About</h2>
+            <p>Hi there. Thanks for visiting my personal website.</p>
+            <p>
+              I'm Ajik. With 2 years experience in software developer, I've
+              honed my expertise in API development, backend development, and
+              web development.
+            </p>
+            <p>
+              I am particularly passionate about backend development, where my
+              strong focus lies in the creation of robust APIs. As an API
+              developer, I specialize in architecting and manage APIs that
+              facilitate seamless communication between different software
+              systems. My proficiency in backend development allows me to design
+              and optimize the server-side logic. Additionally, I have a solid
+              foundation in web development, enabling me to create web
+              applications that are user-friendly experiences and integrate
+              frontend components with backend systems.
+            </p>
 
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>The following are the skills that I possess, have learned, and am interested in utilizing at work.
-            I think any skill can be acquired, and I enjoy learning about new technology.</p>
+            <p>
+              Throughout my career journey, I have had the privilege of learning
+              more about APIs, being able to develop powerful backend solutions,
+              and contributing to developing seamless functionality of various
+              API services.
+            </p>
+            <p>
+              As a developer, I prioritize communication to ensure alignment
+              with stakeholders, simplify the development process, and
+              ultimately deliver solutions that meet and exceed expectations. I
+              firmly believe that encouraging open discussion and active
+              listening to others are essential ingredients for achieving
+              success in any endeavor.
+            </p>
+
+            <p>
+              Take a look around to explore some of my projects and see how I
+              can help bring your vision to life.
+            </p>
+          </div>
+
+          <a
+            class="btn btn-outline-secondary download-btn p-3"
+            href="https://docs.google.com/document/d/1GwAmiqX_3bpEwDvUJykxjPxKPmYUAp8UK4AoWuzVhIc/edit?usp=sharing"
+            role="button"
+          >
+            Download Resume
+          </a>
         </div>
+      </section>
+      <!-- End About Section -->
 
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">JAVA<i class="val">Expert • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JAVASCRIPT<i class="val">Expert • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">TYPESCRIPT<i class="val">Intermediate • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">GOLANG<i class="val">Beginner • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">SWIFT<i class="val">Beginner • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">SPRING<i class="val">Expert • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">NODEJS<i class="val">Expert • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">FASTIFY<i class="val">Advanced • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">NESTJS<i class="val">Beginner • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">EXPRESS<i class="val">Intermediate • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">UNITY ENGINE<i class="val">Advanced • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">XCODE<i class="val">Beginner • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+            <p>
+              The following are the skills that I possess, have learned, and am
+              interested in utilizing at work. I think any skill can be
+              acquired, and I enjoy learning about new technology.
+            </p>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <span class="skill"
+                  >JAVA<i class="val">Expert • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
 
-            <div class="progress">
-              <span class="skill">THYMELEAF<i class="val">Advanced • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress">
+                <span class="skill"
+                  >JAVASCRIPT<i class="val">Expert • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >TYPESCRIPT<i class="val">Intermediate • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >GOLANG<i class="val">Beginner • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >SWIFT<i class="val">Beginner • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >SPRING<i class="val">Expert • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >NODEJS<i class="val">Expert • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >FASTIFY<i class="val">Advanced • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >NESTJS<i class="val">Beginner • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >EXPRESS<i class="val">Intermediate • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >UNITY ENGINE<i class="val">Advanced • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >XCODE<i class="val">Beginner • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
               </div>
             </div>
 
-            <div class="progress">
-              <span class="skill">ANGULAR<i class="val">Intermediate • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <span class="skill"
+                  >THYMELEAF<i class="val">Advanced • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >ANGULAR<i class="val">Intermediate • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >BOOTSTRAP<i class="val">Advanced • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >DOCKER<i class="val">Advanced • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >JENKINS<i class="val">Beginer • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >MYSQL<i class="val">Advanced • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >POSTGRESQL<i class="val">Expert • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >ORACLE<i class="val">Intermediate • Experiences</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >REDIS<i class="val">Beginner • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >APACHE KAFKA<i class="val">Beginner • Theoritical</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="40"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >WEBMETHODS SOFTWARE AG<i class="val"
+                    >Intermediate • Experiences</i
+                  ></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >AXWAY POLICY STUDIO<i class="val"
+                    >Advanced • Experiences</i
+                  ></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
               </div>
             </div>
-
-            <div class="progress">
-              <span class="skill">BOOTSTRAP<i class="val">Advanced • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">DOCKER<i class="val">Advanced • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JENKINS<i class="val">Beginer • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MYSQL<i class="val">Advanced • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">POSTGRESQL<i class="val">Expert • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">ORACLE<i class="val">Intermediate • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">REDIS<i class="val">Beginner • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">APACHE KAFKA<i class="val">Beginner • Theoritical</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">WEBMETHODS SOFTWARE AG<i class="val">Intermediate • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">AXWAY POLICY STUDIO<i class="val">Advanced • Experiences</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
           </div>
-
         </div>
+      </section>
+      <!-- End Skills Section -->
 
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Careers Section ======= -->
-    <section id="careers" class="careers">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Careers</h2>
-          <p>My professional career journey.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="card mb-3 card-body">
-              <div class="row align-items-center">
-                <div class="col-auto">
-                  <img src="assets/img/logo/logo-mandiri.png" class="career-logo rounded-3">
-                </div>
-                <div class="col">
-                  <div class="overflow-hidden flex-nowrap career-text">
-                    <h4><strong>Software Developer</strong></h4>
-                    <h6>Bank Mandiri • Jakarta, Indonesia</h6>
-                    <h7>Contract | Apr 2023 - Present</h7>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <!-- ======= Careers Section ======= -->
+      <section id="careers" class="careers">
+        <div class="container">
+          <div class="section-title">
+            <h2>Careers</h2>
+            <p>My professional career journey.</p>
           </div>
-
-          <div class="col-xl-12">
-            <div class="card mb-3 card-body">
-              <div class="row align-items-center">
-                <div class="col-auto">
-                  <img src="assets/img/logo/logo-enigma.png" class="career-logo rounded-3">
-                </div>
-                <div class="col">
-                  <div class="overflow-hidden flex-nowrap career-text">
-                    <h4><strong>Talent</strong></h4>
-                    <h6>Enigma Cipta Humanika • Jakarta, Indonesia</h6>
-                    <h7>Contract | Jan 2022 - Present</h7>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-12">
-            <div class="card mb-3 card-body">
-              <div class="row align-items-center">
-                <div class="col-auto">
-                  <img src="assets/img/logo/logo-bni.png" class="career-logo rounded-3">
-                </div>
-                <div class="col">
-                  <div class="overflow-hidden flex-nowrap career-text">
-                    <h4><strong>API Management</strong></h4>
-                    <h6>Bank BNI • Jakarta, Indonesia</h6>
-                    <h7>Contract | Jan 2022 - Jan 2023</h7>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-12">
-            <div class="card mb-3 card-body">
-              <div class="row align-items-center">
-                <div class="col-auto">
-                  <img src="assets/img/logo/logo-bps.png" class="career-logo rounded-3">
-                </div>
-                <div class="col">
-                  <div class="overflow-hidden flex-nowrap">
-                    <h4><strong>IT Support</strong></h4>
-                    <h6>BPS • Lampung, Indonesia</h6>
-                    <h7>Internship | Apr 2020 - Sep 2020</h7>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Careers Section -->
-
-    <!-- ======= Projects Section ======= -->
-    <section id="projects" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p>Several projects that I have worked on</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-up">
-            <h3 class="resume-title">Lecture Project</h3>
-            <div class="resume-item">
-              <h4>Mobile Programming • Android</h4>
-              <h5>Universitas Teknokrat Indonesia</h5>
-              <p><em>Android Studio, Java</em></p>
-              <ul>
-                <p>This project is the final assignment in the mobile programming course.
-                  In this project, I had the responsibility to lead team of three members and allocate tasks to each team member.
-                  My task is to develop applications on the scripting side and implement logic using Android Studio and the Java programming language.</p>
-              </ul>
-              <a class="btn btn-outline-secondary" href="https://drive.google.com/file/d/1V0EdPS8FjXSsaq4VYAg4gwUiimbUqnf0/view?usp=sharing" role="button">Download App</a>
-            </div>
-            <div class="resume-item">
-              <h4>Mobile Game • Android</h4>
-              <h5>Universitas Teknokrat Indonesia</h5>
-              <p><em>Unity Engine, C-Sharp</em></p>
-              <ul>
-                <p>This project is the final assignment in the game programming course.
-                This project involves four key roles, namely artist, animator, composer, and programmer.
-                I am responsibly as a programmer, where my task is to develop game and integrate all elements in game development such as design, animation, sound effects, background music, and gameplay primary utilizing Unity Engine.</p>
-              </ul>
-              <a class="btn btn-outline-secondary" href="https://drive.google.com/file/d/1wxl1iOqj6CNJya4y27Xm8uvoSwTeUzh-/view?usp=sharing" role="button">Download App</a>
-            </div>
-            <div class="resume-item">
-              <h4>Desktop Game • Windows</h4>
-              <h5>Universitas Teknokrat Indonesia</h5>
-              <p><em>Aseprite, Audacity, Unit Engine, C-Sharp</em></p>
-              <ul>
-                <p>This project represents my undergraduate thesis.</p>
-              </ul>
-              <a class="btn btn-outline-secondary" href="https://drive.google.com/file/d/17CNWXuDRPQSFxEq-z0iszOkQHkid3GaL/view?usp=sharing" role="button">Read Journal</a>
-              <a class="btn btn-outline-secondary" href="https://drive.google.com/file/d/1TTtC3fjunbaTIihrxVO3ORvctDaQ5lfg/view?usp=sharing" role="button">Download App</a>
-            </div>
-          </div>
-
 
           <div class="row">
-            <div class="col-lg-6">
-              <h3 class="resume-title">API and Integration Project</h3>
-              <div class="resume-item">
-                <h4>Enhancement New UI DOA Eform with OCR</h4>
-                <h5>Bank BNI</h5>
-                <p><em>Axway Policy Studio</em></p>
-                <ul>
-                  <li>Successfully developed proxy URLs to access Google APIs for backend systems.</li>
-                  <li>Wrote API documentation detailing the functionality and usage of API services, ensuring clarity and ease of integration for backend developers.</li>
-                  <li>Measure and monitor API service performance to achieve goals and comply with Google APIs.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>API Sharing Biller on the Sandbox Platform</h4>
-                <h5>Bank BNI</h5>
-                <p><em>Axway Policy Studio, PHP, Laravel</em></p>
-                <ul>
-                  <li>Developed Sharing Biller API services for sandbox platforms, to serve test and development environments.</li>
-                  <li>Built documentation for the web developer API Portal, ensuring clarity and accessibility for developers and stakeholders.</li>
-                  <li>Conducted testing and validation procedures, achieving 100% development success rate.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Request SID feature on the MBANK and GoWealth Platform</h4>
-                <h5>Bank BNI</h5>
-                <p><em>Axway Policy Studio</em></p>
-                <ul>
-                  <li>Developed API endpoints and communication protocols to facilitate the proxy service, effectively forwarding requests from microservices to the GoWealth platform.</li>
-                  <li>Implemented data mapping processes to synchronize master data from BNI systems to the GoWealth environment, ensuring consistency and accuracy in data representation.</li>
-                  <li>Wrote API documentation for internal and external developers.</li>
-                  <li>Conducted testing to ensure functionality and data accuracy, achieving a 100% success rate in implementation and execution.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title text-black">Blank</h3>
-              <div class="resume-item">
-                <h4>Corporate Disbursement API Account Maintenance Screen</h4>
-                <h5>Bank BNI</h5>
-                <p><em>Axway Policy Studio</em></p>
-                <ul>
-                  <li>Developed API endpoints and communication protocols within Axway Policy Studio to facilitate the retrieval and transmission of data between systems, ensuring optimal performance and data integrity.</li>
-                  <li>Integrated the Service Oriented Architecture (SOA) service with the KPS system to extract biller disbursement data effectively, aligning with business objectives and requirements.</li>
-                  <li>Performed testing and validation procedures to verify the reliability, security, and functionality, achieving a 100% development success rate.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>API Services and Sandbox Cardless Withdrawal</h4>
-                <h5>Bank BNI</h5>
-                <p><em>Axway Policy Studio, PHP, Laravel</em></p>
-                <ul>
-                  <li>Developed API services Cardless Withdrawal to enable the efficient transfer of data for MBANK channel.</li>
-                  <li>Developed Cardless Withdrawal services for Sandbox platform, to serve test and development environments.</li>
-                  <li>Built documentation for the API Portal web application, ensuring clarity and accessibility for developers and stakeholders.</li>
-                  <li>Conducted testing and validation to ensure the reliability, security and functionality, achieving a 100% development success rate.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>PaDi UMKM Application</h4>
-                <h5>Bank BNI</h5>
-                <p><em>Axway Policy Studio</em></p>
-                <ul>
-                  <li>Developed API endpoints and communication protocols to enable the efficient transfer of data from various sources to the PaDi UMKM Application, optimizing data accuracy and timeliness.</li>
-                  <li>Conducted testing and validation procedures to verify the integrity and reliability of data transmitted through the API, achieving a success rate within the range of 60 - 80%.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col-lg-6">
-              <h3 class="resume-title">Backend Project</h3>
-              <div class="resume-item">
-                <h4>Java Library</h4>
-                <h5>Bank BNI</h5>
-                <p><em>Java, Maven</em></p>
-                <ul>
-                  <li>Research and development Java library for simplify client integration on java programming language for publish to Maven repository.</li>
-                  <li>Conducted testing and validation procedures to verify the reliability, security, and functionality, achieving a development success rate within the range 50 - 70%.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Web API Developer Portal</h4>
-                <h5>Bank BNI</h5>
-                <p><em>NodeJs, Fastify, Sequelize, Postgresql</em></p>
-                <ul>
-                  <li>Re-engineering web application of API developer Portal <a href="https://digitalservices.bni.co.id/">digitalservices.bni.co.id</a></li>
-                  <li>Migrated the web application from Axway API Portal product to internal product, ensuring high maintenance for future development.</li>
-                  <li>Built the core backend using NodeJs and Fastify framework, with strong focus on documentation API features.</li>
-                  <li>Involved in the development with provide 60% success development rate.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Web BackOffice API Portal</h4>
-                <h5>Bank Mandiri</h5>
-                <p><em>Java, Spring, JBoss, Postgresql, Oracle</em></p>
-                <ul>
-                  <li>Modify and optimize native postgresql queries to align with Oracle's SQL syntax.</li>
-                  <li>Develop migration process from PostgreSQL to Oracle, ensuring minimal downtime and data loss.</li>
-                  <li>Implement query optimization, indexing, and data retrieval to enhance overall database performance.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title text-black">Blank</h3>
-              <div class="resume-item">
-                <h4>Web BackOffice Scripless KSEI</h4>
-                <h5>Bank Mandiri</h5>
-                <p><em>Java, Spring, Maven, WebLogic</em></p>
-                <ul>
-                  <li>Built new internal web application with focus on the back-end side.</li>
-                  <li>Collaborated closely with front-end developer, focusing on scalable and efficient solutions.</li>
-                  <li>Implemented the deployment of the project using Oracle WebLogic server.</li>
-                  <li>Write clean and maintainable code and conduct thorough and code reviews, successfully completed the User Management feature.</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Web API Developer Portal</h4>
-                <h5>Bank Mandiri</h5>
-                <p><em>Webmethods Software AG</em></p>
-                <ul>
-                  <li>Re-engineering web developer API Portal <a href="https://developer.bankmandiri.co.id">developer.bankmandiri.co.id</a></li>
-                  <li>Migrated the web application from Webmethods Software AG Portal product to internal product, resulting in a improve features that existing product cannot be provide.</li>
-                  <li>Built API services using Webmethods Software AG, with focusing on the back-end side only.</li>
-                  <li>Design and manage API services, ensuring smooth development and minimizing data loss.</li>
-                  <li>Write clean and maintainable code and conduct thorough and code reviews, achieving a 40% development success rate.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col-lg-6">
-              <h3 class="resume-title">Web Application Project</h3>
-              <div class="resume-item">
-                <h4>Web BackOffice Summary Corporate Billing</h4>
-                <h5>Bank Mandiri</h5>
-                <p><em>Java, Spring, Thymeleaf, Bootstrap, Ajax, JQuery, Oracle, JBoss, Maven</em></p>
-                <ul>
-                  <li>Developed new web application using Spring Boot for Backend implementation along as with Thymeleaf and Bootstrap for designing and implementing the User Interface.</li>
-                  <li>Actively engage in the entire development lifecycle, including requirements analysis, development, testing, deployment, maintenance, monitoring, and continuous improvement.</li>
-                  <li>Implemented the deployment of the project using JBoss, ensuring seamless to across various environtment.</li>
-                  <li>Produced high-quality, maintainable code, tested it, collaboratively reviewed it, and delivered it. Achieving a 100% development success rate.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title text-black">Blank</h3>
-              <div class="resume-item">
-                <h4>Web BackOffice SPAN</h4>
-                <h5>Bank Mandiri</h5>
-                <p><em>Typescript, Angular, Ajax, JQuery</em></p>
-                <ul>
-                  <li>Developed and implemented new features on the FrontEnd of the existing web using Angular and Bootstrap according to project requirements.</li>
-                  <li>Identifying and fixing bugs and issues in the application, with a specific focus on rectifying issues related to the tables and ensuring their proper functionality.</li>
-                  <li>Enhancement API services calls within the SPAN web application, optimizing performance and ensuring seamless integration with back-end systems.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Please feel free to contact me, and let's engage in a discussion about how we can collaborate effectively.</p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Pancoran Barat IV E, Jakarta, Indonesia</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>riskiajikusuma.dev@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>(+62) 8810 8186 1349</p>
-              </div>
-              <iframe src="https://maps.google.com/maps?q=Jl+pancoran+Barat+IV+E&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form class="send-email">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="smName">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="smName" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="smEmail">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="smEmail" required>
+            <div class="col-xl-12">
+              <div class="card mb-3 card-body">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img
+                      src="assets/img/logo/logo-mandiri.png"
+                      class="career-logo rounded-3"
+                    />
+                  </div>
+                  <div class="col">
+                    <div class="overflow-hidden flex-nowrap career-text">
+                      <h4><strong>Software Developer</strong></h4>
+                      <h6>Bank Mandiri • Jakarta, Indonesia</h6>
+                      <h7>Contract | Apr 2023 - Mar 2024</h7>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="smSubject">Subject</label>
-                <input type="text" class="form-control" name="subject" id="smSubject" required>
+            </div>
+
+            <div class="col-xl-12">
+              <div class="card mb-3 card-body">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img
+                      src="assets/img/logo/logo-enigma.png"
+                      class="career-logo rounded-3"
+                    />
+                  </div>
+                  <div class="col">
+                    <div class="overflow-hidden flex-nowrap career-text">
+                      <h4><strong>Talent</strong></h4>
+                      <h6>Enigma Cipta Humanika • Jakarta, Indonesia</h6>
+                      <h7>Contract | Jan 2022 - Present</h7>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="smMessage">Message</label>
-                <textarea class="form-control" name="message" rows="10" id="smMessage" required></textarea>
+            </div>
+
+            <div class="col-xl-12">
+              <div class="card mb-3 card-body">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img
+                      src="assets/img/logo/logo-bni.png"
+                      class="career-logo rounded-3"
+                    />
+                  </div>
+                  <div class="col">
+                    <div class="overflow-hidden flex-nowrap career-text">
+                      <h4><strong>API Management</strong></h4>
+                      <h6>Bank BNI • Jakarta, Indonesia</h6>
+                      <h7>Contract | Jan 2022 - Jan 2023</h7>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="text-center">
-                <button type="submit" onclick="sendMail()">Send Message</button>
+            </div>
+
+            <div class="col-xl-12">
+              <div class="card mb-3 card-body">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img
+                      src="assets/img/logo/logo-bps.png"
+                      class="career-logo rounded-3"
+                    />
+                  </div>
+                  <div class="col">
+                    <div class="overflow-hidden flex-nowrap">
+                      <h4><strong>IT Support</strong></h4>
+                      <h6>BPS • Lampung, Indonesia</h6>
+                      <h7>Internship | Apr 2020 - Sep 2020</h7>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Careers Section -->
+
+      <!-- ======= Projects Section ======= -->
+      <section id="projects" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projects</h2>
+            <p>Several projects that I have worked on</p>
           </div>
 
+          <div class="row">
+            <div class="col-lg-12" data-aos="fade-up">
+              <h3 class="resume-title">Lecture Project</h3>
+              <div class="resume-item">
+                <h4>Mobile Programming • Android</h4>
+                <h5>Universitas Teknokrat Indonesia</h5>
+                <p><em>Android Studio, Java</em></p>
+                <ul>
+                  <p>
+                    This project is the final assignment in the mobile
+                    programming course. In this project, I had the
+                    responsibility to lead team of three members and allocate
+                    tasks to each team member. My task is to develop
+                    applications on the scripting side and implement logic using
+                    Android Studio and the Java programming language.
+                  </p>
+                </ul>
+                <a
+                  class="btn btn-outline-secondary"
+                  href="https://drive.google.com/file/d/1V0EdPS8FjXSsaq4VYAg4gwUiimbUqnf0/view?usp=sharing"
+                  role="button"
+                  >Download App</a
+                >
+              </div>
+              <div class="resume-item">
+                <h4>Mobile Game • Android</h4>
+                <h5>Universitas Teknokrat Indonesia</h5>
+                <p><em>Unity Engine, C-Sharp</em></p>
+                <ul>
+                  <p>
+                    This project is the final assignment in the game programming
+                    course. This project involves four key roles, namely artist,
+                    animator, composer, and programmer. I am responsibly as a
+                    programmer, where my task is to develop game and integrate
+                    all elements in game development such as design, animation,
+                    sound effects, background music, and gameplay primary
+                    utilizing Unity Engine.
+                  </p>
+                </ul>
+                <a
+                  class="btn btn-outline-secondary"
+                  href="https://drive.google.com/file/d/1wxl1iOqj6CNJya4y27Xm8uvoSwTeUzh-/view?usp=sharing"
+                  role="button"
+                  >Download App</a
+                >
+              </div>
+              <div class="resume-item">
+                <h4>Desktop Game • Windows</h4>
+                <h5>Universitas Teknokrat Indonesia</h5>
+                <p><em>Aseprite, Audacity, Unit Engine, C-Sharp</em></p>
+                <ul>
+                  <p>This project represents my undergraduate thesis.</p>
+                </ul>
+                <a
+                  class="btn btn-outline-secondary"
+                  href="https://drive.google.com/file/d/17CNWXuDRPQSFxEq-z0iszOkQHkid3GaL/view?usp=sharing"
+                  role="button"
+                  >Read Journal</a
+                >
+                <a
+                  class="btn btn-outline-secondary"
+                  href="https://drive.google.com/file/d/1TTtC3fjunbaTIihrxVO3ORvctDaQ5lfg/view?usp=sharing"
+                  role="button"
+                  >Download App</a
+                >
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="resume-title">API and Integration Project</h3>
+                <div class="resume-item">
+                  <h4>Enhancement New UI DOA Eform with OCR</h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>Axway Policy Studio</em></p>
+                  <ul>
+                    <li>
+                      Successfully developed proxy URLs to access Google APIs
+                      for backend systems.
+                    </li>
+                    <li>
+                      Wrote API documentation detailing the functionality and
+                      usage of API services, ensuring clarity and ease of
+                      integration for backend developers.
+                    </li>
+                    <li>
+                      Measure and monitor API service performance to achieve
+                      goals and comply with Google APIs.
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4>API Sharing Biller on the Sandbox Platform</h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>Axway Policy Studio, PHP, Laravel</em></p>
+                  <ul>
+                    <li>
+                      Developed Sharing Biller API services for sandbox
+                      platforms, to serve test and development environments.
+                    </li>
+                    <li>
+                      Built documentation for the web developer API Portal,
+                      ensuring clarity and accessibility for developers and
+                      stakeholders.
+                    </li>
+                    <li>
+                      Conducted testing and validation procedures, achieving
+                      100% development success rate.
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4>
+                    Request SID feature on the MBANK and GoWealth Platform
+                  </h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>Axway Policy Studio</em></p>
+                  <ul>
+                    <li>
+                      Developed API endpoints and communication protocols to
+                      facilitate the proxy service, effectively forwarding
+                      requests from microservices to the GoWealth platform.
+                    </li>
+                    <li>
+                      Implemented data mapping processes to synchronize master
+                      data from BNI systems to the GoWealth environment,
+                      ensuring consistency and accuracy in data representation.
+                    </li>
+                    <li>
+                      Wrote API documentation for internal and external
+                      developers.
+                    </li>
+                    <li>
+                      Conducted testing to ensure functionality and data
+                      accuracy, achieving a 100% success rate in implementation
+                      and execution.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title text-black">Blank</h3>
+                <div class="resume-item">
+                  <h4>Corporate Disbursement API Account Maintenance Screen</h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>Axway Policy Studio</em></p>
+                  <ul>
+                    <li>
+                      Developed API endpoints and communication protocols within
+                      Axway Policy Studio to facilitate the retrieval and
+                      transmission of data between systems, ensuring optimal
+                      performance and data integrity.
+                    </li>
+                    <li>
+                      Integrated the Service Oriented Architecture (SOA) service
+                      with the KPS system to extract biller disbursement data
+                      effectively, aligning with business objectives and
+                      requirements.
+                    </li>
+                    <li>
+                      Performed testing and validation procedures to verify the
+                      reliability, security, and functionality, achieving a 100%
+                      development success rate.
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4>API Services and Sandbox Cardless Withdrawal</h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>Axway Policy Studio, PHP, Laravel</em></p>
+                  <ul>
+                    <li>
+                      Developed API services Cardless Withdrawal to enable the
+                      efficient transfer of data for MBANK channel.
+                    </li>
+                    <li>
+                      Developed Cardless Withdrawal services for Sandbox
+                      platform, to serve test and development environments.
+                    </li>
+                    <li>
+                      Built documentation for the API Portal web application,
+                      ensuring clarity and accessibility for developers and
+                      stakeholders.
+                    </li>
+                    <li>
+                      Conducted testing and validation to ensure the
+                      reliability, security and functionality, achieving a 100%
+                      development success rate.
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4>PaDi UMKM Application</h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>Axway Policy Studio</em></p>
+                  <ul>
+                    <li>
+                      Developed API endpoints and communication protocols to
+                      enable the efficient transfer of data from various sources
+                      to the PaDi UMKM Application, optimizing data accuracy and
+                      timeliness.
+                    </li>
+                    <li>
+                      Conducted testing and validation procedures to verify the
+                      integrity and reliability of data transmitted through the
+                      API, achieving a success rate within the range of 60 -
+                      80%.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="resume-title">Backend Project</h3>
+                <div class="resume-item">
+                  <h4>Java Library</h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>Java, Maven</em></p>
+                  <ul>
+                    <li>
+                      Research and development Java library for simplify client
+                      integration on java programming language for publish to
+                      Maven repository.
+                    </li>
+                    <li>
+                      Conducted testing and validation procedures to verify the
+                      reliability, security, and functionality, achieving a
+                      development success rate within the range 50 - 70%.
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4>Web API Developer Portal</h4>
+                  <h5>Bank BNI</h5>
+                  <p><em>NodeJs, Fastify, Sequelize, Postgresql</em></p>
+                  <ul>
+                    <li>
+                      Re-engineering web application of API developer Portal
+                      <a href="https://digitalservices.bni.co.id/"
+                        >digitalservices.bni.co.id</a
+                      >
+                    </li>
+                    <li>
+                      Migrated the web application from Axway API Portal product
+                      to internal product, ensuring high maintenance for future
+                      development.
+                    </li>
+                    <li>
+                      Built the core backend using NodeJs and Fastify framework,
+                      with strong focus on documentation API features.
+                    </li>
+                    <li>
+                      Involved in the development with provide 60% success
+                      development rate.
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4>Web BackOffice API Portal</h4>
+                  <h5>Bank Mandiri</h5>
+                  <p><em>Java, Spring, JBoss, Postgresql, Oracle</em></p>
+                  <ul>
+                    <li>
+                      Modify and optimize native postgresql queries to align
+                      with Oracle's SQL syntax.
+                    </li>
+                    <li>
+                      Develop migration process from PostgreSQL to Oracle,
+                      ensuring minimal downtime and data loss.
+                    </li>
+                    <li>
+                      Implement query optimization, indexing, and data retrieval
+                      to enhance overall database performance.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title text-black">Blank</h3>
+                <div class="resume-item">
+                  <h4>Web BackOffice Scripless KSEI</h4>
+                  <h5>Bank Mandiri</h5>
+                  <p><em>Java, Spring, Maven, WebLogic</em></p>
+                  <ul>
+                    <li>
+                      Built new internal web application with focus on the
+                      back-end side.
+                    </li>
+                    <li>
+                      Collaborated closely with front-end developer, focusing on
+                      scalable and efficient solutions.
+                    </li>
+                    <li>
+                      Implemented the deployment of the project using Oracle
+                      WebLogic server.
+                    </li>
+                    <li>
+                      Write clean and maintainable code and conduct thorough and
+                      code reviews, successfully completed the User Management
+                      feature.
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4>Web API Developer Portal</h4>
+                  <h5>Bank Mandiri</h5>
+                  <p><em>Webmethods Software AG</em></p>
+                  <ul>
+                    <li>
+                      Re-engineering web developer API Portal
+                      <a href="https://developer.bankmandiri.co.id"
+                        >developer.bankmandiri.co.id</a
+                      >
+                    </li>
+                    <li>
+                      Migrated the web application from Webmethods Software AG
+                      Portal product to internal product, resulting in a improve
+                      features that existing product cannot be provide.
+                    </li>
+                    <li>
+                      Built API services using Webmethods Software AG, with
+                      focusing on the back-end side only.
+                    </li>
+                    <li>
+                      Design and manage API services, ensuring smooth
+                      development and minimizing data loss.
+                    </li>
+                    <li>
+                      Write clean and maintainable code and conduct thorough and
+                      code reviews, achieving a 40% development success rate.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="resume-title">Web Application Project</h3>
+                <div class="resume-item">
+                  <h4>Web BackOffice Summary Corporate Billing</h4>
+                  <h5>Bank Mandiri</h5>
+                  <p>
+                    <em
+                      >Java, Spring, Thymeleaf, Bootstrap, Ajax, JQuery, Oracle,
+                      JBoss, Maven</em
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Developed new web application using Spring Boot for
+                      Backend implementation along as with Thymeleaf and
+                      Bootstrap for designing and implementing the User
+                      Interface.
+                    </li>
+                    <li>
+                      Actively engage in the entire development lifecycle,
+                      including requirements analysis, development, testing,
+                      deployment, maintenance, monitoring, and continuous
+                      improvement.
+                    </li>
+                    <li>
+                      Implemented the deployment of the project using JBoss,
+                      ensuring seamless to across various environtment.
+                    </li>
+                    <li>
+                      Produced high-quality, maintainable code, tested it,
+                      collaboratively reviewed it, and delivered it. Achieving a
+                      100% development success rate.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title text-black">Blank</h3>
+                <div class="resume-item">
+                  <h4>Web BackOffice SPAN</h4>
+                  <h5>Bank Mandiri</h5>
+                  <p><em>Typescript, Angular, Ajax, JQuery</em></p>
+                  <ul>
+                    <li>
+                      Developed and implemented new features on the FrontEnd of
+                      the existing web using Angular and Bootstrap according to
+                      project requirements.
+                    </li>
+                    <li>
+                      Identifying and fixing bugs and issues in the application,
+                      with a specific focus on rectifying issues related to the
+                      tables and ensuring their proper functionality.
+                    </li>
+                    <li>
+                      Enhancement API services calls within the SPAN web
+                      application, optimizing performance and ensuring seamless
+                      integration with back-end systems.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- End Resume Section -->
 
-      </div>
-    </section><!-- End Contact Section -->
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>
+              Please feel free to contact me, and let's engage in a discussion
+              about how we can collaborate effectively.
+            </p>
+          </div>
 
-  </main><!-- End #main -->
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Pancoran Barat IV E, Jakarta, Indonesia</p>
+                </div>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>riskiajikusuma.dev@gmail.com</p>
+                </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>(+62) 8810 8186 1349</p>
+                </div>
+                <iframe
+                  src="https://maps.google.com/maps?q=Jl+pancoran+Barat+IV+E&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form class="send-email">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="smName">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="smName"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="smEmail">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="smEmail"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="smSubject">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="smSubject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="smMessage">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    id="smMessage"
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" onclick="sendMail()">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-</body>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
